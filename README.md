@@ -226,4 +226,4 @@ public class controller {
 - LinkedIn: [(https://www.linkedin.com/in/nikam-rahul/)]
 
 
-> 🌟 Star the repo if you find it helpful and stay tuned for frontend integration in Phase 2!
+> 🌟 Star the repo if you find it helpful.
