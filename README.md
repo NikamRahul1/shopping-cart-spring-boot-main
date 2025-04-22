@@ -211,14 +211,6 @@ public class controller {
 - Implemented complete CRUD via REST APIs
 - Tested endpoints using Postman
 
----
-
-## 🔜 Next Steps (Phase 2)
-- Frontend development with **React.js**
-- Admin dashboard integration
-- Shopping cart functionality
-- Payment gateway integration (Stripe/PayPal)
-
 
 ---
 
