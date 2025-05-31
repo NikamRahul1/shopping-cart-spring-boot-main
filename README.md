@@ -165,10 +165,12 @@ public class controller {
     }
 
     // ✅ CREATE product
-    @PostMapping
-    public product createProduct(@RequestBody product product) {
-        return productRepository.save(product);
-    }
+    @PostMapping("/products")
+public ResponseEntity<Product> createProduct(@RequestBody Product product) {
+    Product savedProduct = productRepository.save(product);
+    return new ResponseEntity<>(savedProduct, HttpStatus.CREATED);
+}
+
 
     // ✅ UPDATE product
     @PutMapping("/{id}")
